@@ -146,6 +146,7 @@ A: Use Additive (which we used here) if your weekly fluctuations stay roughly th
 **Q: Can I automate this for real-time dashboards?**
 
 A: Absolutely. You can wrap this logic in a Lambda function or a Cron job that pulls from your SQL database every morning, runs the forecast, and pushes the results to a Slack channel or a Grafana dashboard.
+
 ---
 
 ## 🛠 Pro-Level Tuning: Beyond the Basics
